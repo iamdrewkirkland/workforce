@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import "./employee.css";
+/*Typography --------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Inconsolata", "Calibri", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inconsolata", "Calibri Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+#container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.italic {
+  font-style: italic;
+}

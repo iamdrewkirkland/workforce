@@ -1,0 +1,95 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name":"Atlanta"
+        },
+        {
+            "id": 2,
+            "name":"Memphis"
+        },
+        {
+            "id": 3,
+            "name":"Nashville"
+        }
+        
+    ],
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Microsoft Surface 3 Pro",
+            "year": 2020
+        },
+        {
+            "id": 3,
+            "model": "PINEBOOK Pro",
+            "year": 2020
+        },
+        {
+            "id": 4,
+            "model": "Lenovo ThinkPad",
+            "year": 2018
+        }
+    ],
+    "departments": [
+        {
+            "id":1,
+            "name":"Network Administration"
+        },
+        {
+            "id":2,
+            "name":"Operational Security"
+        },
+        {
+            "id":3,
+            "name":"Marketing"
+        },
+        {
+            "id":4,
+            "name":"Operations"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 33,
+            "computerId": 1,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "firstName": "Steve",
+            "lastName": "Jobs",
+            "age": 63,
+            "computerId": 2,
+            "departmentId": 3,
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Richard",
+            "lastName": "Stallman",
+            "age": 67,
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Bill",
+            "lastName": "Gates",
+            "age": 64,
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 1
+        }
+    ]
+}
