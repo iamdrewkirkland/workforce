@@ -1,7 +1,6 @@
 // export a function to represent the employee and device as HTML
 export const employeeHtml = (employee, computer, department, location) => {
-    
-    return `
+  return `
         <section class="employeePreview">
             <div class="employeePreview__bio">
                 <h3>${employee.firstName} ${employee.lastName} (${employee.age})</h3> 
@@ -13,9 +12,11 @@ export const employeeHtml = (employee, computer, department, location) => {
                 <p>${location.name} Office</p>
             </div>
             <div class="employeePreview__department">
-                <p>${employee.firstName} works in</p>
                 <p class="italic">${department.name}</p>
             </div>
+            <div class="employeePreview__customers">
+                <p></p>
+            </div>
         </section>
-    `
-}
+    `;
+};

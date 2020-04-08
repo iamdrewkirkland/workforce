@@ -54,6 +54,24 @@
             "name":"Operations"
         }
     ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "FirstClass Distribution"
+        },
+        {
+            "id": 3,
+            "name": "OpenAir Distribution"
+        },
+        {
+            "id": 4,
+            "name": "Railway Distribution"
+        }
+    ],
     "employees": [
         {
             "id": 1,
@@ -90,6 +108,48 @@
             "computerId": 4,
             "departmentId": 4,
             "locationId": 1
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 2,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 3,
+            "customerId": 3,
+            "employeeId": 1
+        },
+        {
+            "id": 4,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 5,
+            "customerId": 2,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 1,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 3,
+            "employeeId": 4
         }
     ]
 }

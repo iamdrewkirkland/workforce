@@ -2,7 +2,7 @@
   border: 1px #404040 solid;
   border-radius: 5px;
   background-color: #eeeeee;
-  
+
   width: max-content;
   padding: 10px;
   margin: 5px;
@@ -13,13 +13,18 @@
 }
 
 .employeePreview__bio h3 {
-    /* font-size: 1.6em; */
+  font-size: 1.2em;
+}
+.employeePreview__bio p {
+  line-height: 0.8em;
 }
 
 .employeePreview__device {
-  border-top: 2px #404040 solid;
+  border-top: 1px #404040 solid;
+  border-bottom: 1px #404040 solid;
 }
 
-.employeePreview__location {
-  border-top: 1px #404040 solid;
+.employeePreview__location div p {
+  margin: 0px;
+  padding: 0px;
 }
