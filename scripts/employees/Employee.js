@@ -1,5 +1,11 @@
 // export a function to represent the employee and device as HTML
-export const employeeHtml = (employee, computer, department, location) => {
+export const employeeHtml = (
+  employee,
+  computer,
+  department,
+  location,
+  customers
+) => {
   return `
         <section class="employeePreview">
             <div class="employeePreview__bio">
@@ -15,7 +21,12 @@ export const employeeHtml = (employee, computer, department, location) => {
                 <p class="italic">${department.name}</p>
             </div>
             <div class="employeePreview__customers">
-                <p></p>
+                <ul>
+                <lh>Customer Accounts</lh>
+                ${customers.map((customer) => {
+                  return `<li>${customer.name}</li>`
+                }).join("")}
+                </ul>
             </div>
         </section>
     `;
